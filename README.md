@@ -1,34 +1,38 @@
-# Switch Case Demo
-This C program demonstrates the use of the switch-case control structure. The user selects an operation, and the program performs it based on the choice.
+# Food Menu Selector (Switch Case)
+This C program allows the user to select an item from a food menu using a number (1–5), and it displays the selected dish with its price using a `switch-case` structure.
 
 ## Language
 C
 
 ## Description
-The program shows a menu to the user and uses a switch statement to handle different operations like addition, subtraction, multiplication, or division.
+- Displays a food menu to the user
+- Takes the user's choice as input
+- Uses a `switch` statement to show the corresponding item and its price
+- Handles invalid input with a default message
 
-### Sample Output
-Menu:
+### Menu
+KFC with Mayonnaise and Sauce – Rs. 350
 
-Add
+Nuggets and Mojito – Rs. 150
 
-Subtract
+Pasta with Sauce – Rs. 299
 
-Multiply
+Sandwich with Mayonnaise – Rs. 199
 
-Divide
-Enter your choice: 1
-Enter two numbers: 5 10
-Result = 15
+Triple Deck Cheese Pizza – Rs. 450
+
+3
+You ordered Pasta with sauce. It costs RS: 299
 
 ## How to Run
-Compile and run the program using a C compiler:
 ```bash
-gcc switch_case_demo.c -o menu
+gcc food_menu.c -o menu
 ./menu
 What I Learned
-Using switch-case statements in C
+How to create a menu using printf
 
-Taking user input for decisions
+Taking user input with scanf
 
-Grouping logic by cases and handling invalid input
+Using switch-case to handle multiple choices
+
+Adding break statements to avoid fall-through
