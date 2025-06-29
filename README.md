@@ -28,7 +28,9 @@ You ordered Pasta with sauce. It costs RS: 299
 ```bash
 gcc food_menu.c -o menu
 ./menu
+
 What I Learned
+
 How to create a menu using printf
 
 Taking user input with scanf
